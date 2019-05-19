@@ -1,0 +1,12 @@
+nav:
+    - title: news
+      url: /news
+
+    - title: music
+      url: https://song.link/album/i/1112754082
+
+    - title: videos
+      url: https://www.youtube.com/channel/UC28hpUXWU061hMpRn9W_WfA/featured?view_as=subscriber
+
+    - title: bandcamp
+      url: https://champagne1.bandcamp.com/
