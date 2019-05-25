@@ -9,7 +9,13 @@
   background: rgba($brand-primary, 0);
   transition: all $base-duration $base-timing;
   z-index: 20;
-
+  background-image:
+    linear-gradient(
+      to bottom,
+      $brand-primary,
+      $brand-secondary
+    );
+    
   &.navigation-scroll {
     padding: ($base-point-grid * 2) 0;
     background: rgba($brand-primary, 0.95);
@@ -23,6 +29,7 @@
     .navigation-brand {
       font-size: 1.333rem;
       font-weight: $font-semibold;
+      text-transform: uppercase;
 
       a {
         color: $white;

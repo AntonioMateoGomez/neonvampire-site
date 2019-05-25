@@ -10,20 +10,6 @@
       $brand-secondary
     );
 
-  .masthead-background {
-  	background: url("../../../img/logo_masthead.svg");
-  	position: absolute;
-  	top: 0;
-  	left: 0;
-  	width: 100%;
-  	height: 100%;
-  	background-position: -500px -1350px;
-  	background-size: 1200px;
-  	background-repeat: no-repeat;
-  	right: 0;
-  	bottom: 0;
-  }
-
   .masthead-content {
     padding: ($base-point-grid * 20) 0 0;
 
@@ -92,6 +78,15 @@
     position: absolute;
     bottom: -2px;
   }
+}
+
+.picture-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.masthead-background {
+	width: 100%;
 }
 
 // Responsive mode

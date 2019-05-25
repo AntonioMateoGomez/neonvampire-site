@@ -10,6 +10,11 @@
     @include flexbox;
     @include justify-content(space-between);
     @include align-items(center);
+    @include flex-direction(column);
+
+    .copyright {
+        margin: 70px 0;
+    }
 
     p {
       color: rgba($white, 0.4);
@@ -33,14 +38,6 @@
       .foot-item-text {
         @include bp(medium) {
         display: none;
-        }
-      }
-
-      .foot-item-icon {
-        display: none;
-
-        @include bp(medium) {
-            display: inline-block;
         }
       }
     }
