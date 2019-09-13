@@ -1,13 +1,13 @@
-title: Channpagne
+title: Neon Vampire
 #-------------------------
-name: Channpagne
+name: Neon Vampire
 #-------------------------
 description: Official band site
 #-------------------------
-author: channpagne
-keywords: channpagne, champagne, pop-rock, pop/rock, band, cadiz, san fernando, grupo, musica
+author: Neon Vampire
+keywords: Neon Vampire, neon vampire, champagne, pop-rock, pop/rock, band, cadiz, san fernando, grupo, musica
 #-------------------------
-url: https://www.channpagnepop.com
+url: https://www.neonvampire.com
 #-------------------------
 markdown: kramdown
 sass:
@@ -19,4 +19,4 @@ permalink: pretty
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile', '.bundle', 'extra']
 
 #-------------------------
-github_repository: https://github.com/AntonioMateoGomez/champagnepop-site
+github_repository: https://github.com/AntonioMateoGomez/neonvampire-site
