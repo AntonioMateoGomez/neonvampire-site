@@ -1,0 +1,9 @@
+#main-section {
+  height: 300px;
+  border-bottom: solid 1px;
+  display: flex;
+
+  .section {
+    width: $column-4;
+  }
+}

@@ -1,20 +1,28 @@
 <footer id="footer">
-    <div class="content-footer container">
-        <ul>
-            {% for item in site.data.footer-nav.nav %}
-            <li>
-              <a href="{{ item.url }}" title="{{ item.title }}" alt="{{ item.title }}">
-              {% if item.icon != "" %}
-                <i class="foot-item-icon fa fa-lg {{ item.icon }}" aria-hidden="true"></i>
-              {% else %}
-                <span>{{ item.title }}</span>
-              {% endif %}
-              </a>
-            </li>
-            {% endfor %}
-        </ul>
-        <div class="copyright">
-            <p>© {{ site.time | date: '%Y' }} CHAMPAGNE</p>
-        </div>
+  <div class="footer-content">
+    <div id="footer-info">
+      <span>{{site.data.commons.band_lema}}</span>
+      <div class="copyright">
+        <p>© {{ site.time | date: '%Y' }} NEON VAMPIRE</p>
+      </div>
     </div>
+    <div id="footer-icons">
+      <ul>
+        {% for item in site.data.footer-nav.nav %}
+        <li>
+          <a href="{{ item.url }}" title="{{ item.title }}" alt="{{ item.title }}">
+            {% if item.icon != "" %}
+            <i class="foot-item-icon fa fa-lg {{ item.icon }}" aria-hidden="true"></i>
+            {% else %}
+            <span>{{ item.title }}</span>
+            {% endif %}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div id="footer-nav">
+      {% include _nav-menu.html %}
+    </div>
+  </div>
 </footer>

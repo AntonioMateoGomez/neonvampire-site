@@ -1,0 +1,39 @@
+#footer {
+  padding: $base-point-grid * 10;
+
+  .footer-content {
+    display: flex;
+  }
+
+  #footer-info {
+    width: $column-4;
+    font-size: small;
+  }
+
+  #footer-icons {
+    width: $column-4;
+    text-align: center;
+
+    ul {
+      display: inline-flex;
+
+      li {
+        padding: 0 $base-point-grid * 2;
+      }
+    }
+  }
+
+ #footer-nav {
+   width: $column-4;
+
+   .nav-menu {
+     display: flex;
+     justify-content: flex-end;
+     font-size: small;
+
+     li {
+       padding: 0 $base-point-grid * 2;
+     }
+   }
+ }
+}
