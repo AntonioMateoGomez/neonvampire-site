@@ -1,14 +1,14 @@
 nav:
     - title: twitter
-      url:
+      url: https://twitter.com/neonvampireband
       icon: "fa-twitter"
 
     - title: facebook
-      url: https://es-es.facebook.com/champagnepowerpop/
+      url: https://www.facebook.com/neonvampire/
       icon: "fa-facebook-f"
 
     - title: instagram
-      url:
+      url: https://www.instagram.com/neon_vampire_official/
       icon: "fa-instagram"
 
     - title: youtube
