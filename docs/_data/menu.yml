@@ -1,12 +1,20 @@
 nav:
     - title: news
+      description: Lorem ipsum dolor sit amet
       url: /news
 
     - title: music
+      description: Lorem ipsum dolor sit amet
       url: https://song.link/album/i/1112754082
 
     - title: media
+      description: Lorem ipsum dolor sit amet
       url: https://www.youtube.com/channel/UC28hpUXWU061hMpRn9W_WfA/featured?view_as=subscriber
 
+    - title: contact
+      description: Lorem ipsum dolor sit amet
+      url: /news
+
     - title: bandcamp
+      description: Lorem ipsum dolor sit amet
       url: https://champagne1.bandcamp.com/

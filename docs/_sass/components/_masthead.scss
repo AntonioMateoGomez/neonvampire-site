@@ -29,5 +29,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: .4;
+    opacity: .7;
+}
+
+.fa-angle-down {
+  margin-top: -40px;
+}
+
+#point-to-feature:hover {
+  cursor: pointer;
 }

@@ -1,6 +1,7 @@
 <div>
   <ul class="nav-menu">
     {% for item in site.data.menu.nav%}
+    {% if item.title != "contact" %}
     <li>
       <a href="{{ item.url }}" title="{{ item.title }}" alt="{{ item.title }}">
         {% if item.icon != "" %}
@@ -11,6 +12,7 @@
         {% endif %}
       </a>
     </li>
+    {% endif %}
     {% endfor %}
   </ul>
 </div>

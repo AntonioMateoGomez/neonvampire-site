@@ -1,17 +1,127 @@
 #main-section {
-  height: 300px;
   border-bottom: solid 1px;
   display: flex;
 
-  div:nth-child(2) {
+  a:nth-child(2) {
   border-style: none solid none solid;
   }
-  div:nth-child(3) {
+  a:nth-child(3) {
   border-style: none solid none solid;
   }
 
+  .feature-content {
+    position: relative;
+  }
+
   .section {
+    height: 300px;
     width: $column-3;
     border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    .description {
+      font-size: 1.2rem;
+    }
+  }
+
+  #feature-news {
+    opacity: 0.6;
+    transition: all 400ms ease;
+  }
+
+  #feature-news::before {
+    background: url("../assets/img/nv-octavio.jpg");
+    content: "";
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-position: 33% 34%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+  }
+
+  #feature-music {
+    opacity: 0.6;
+    transition: all 400ms ease;
+  }
+
+  #feature-music::before {
+    background: url("../assets/img/nv-paolo.jpg");
+    content: "";
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: 35%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    opacity: 0.8;
+  }
+
+  #feature-media {
+    opacity: 0.6;
+    transition: all 400ms ease;
+  }
+
+  #feature-media::before {
+    background: url("../assets/img/nv-dani.jpg");
+    background-position: 33% 57%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: "";
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    opacity: 0.8;
+  }
+
+  #feature-contact {
+    opacity: 0.6;
+    transition: all 400ms ease;
+  }
+
+  #feature-contact::before {
+    background: url("../assets/img/nv-bambino.jpg");
+    background-position: 33% 35%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: "";
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    opacity: 0.8;
+  }
+}
+
+// Responsive
+@include bp(medium) {
+  #main-section {
+    flex-wrap: wrap;
+    .section {
+      width: $column-12;
+    }
+    a.section:not(:first-of-type) {
+      border-top: solid 1px;
+    }
   }
 }
