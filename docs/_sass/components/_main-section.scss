@@ -32,11 +32,11 @@
     }
   }
 
-  #feature-news {
+  #feature-content-news {
     transition: all 400ms ease;
   }
 
-  #feature-news::before {
+  #feature-content-news::after {
     background: url("../assets/img/nv-octavio.jpg");
     content: "";
     z-index: -1;
@@ -48,18 +48,18 @@
     background-position: 33% 34%;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.6;
+    opacity: 0.5;
   }
 
-  #feature-news:hover::before {
-    opacity: 0.9;
+  #feature-content-news:hover::after {
+    opacity: 0.8;
   }
 
-  #feature-music {
+  #feature-content-music {
     transition: all 400ms ease;
   }
 
-  #feature-music::before {
+  #feature-content-music::after {
     background: url("../assets/img/nv-paolo.jpg");
     content: "";
     z-index: -1;
@@ -71,18 +71,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    opacity: 0.6;
+    opacity: 0.5;
   }
 
-  #feature-music:hover::before {
+  #feature-content-music:hover::after {
     opacity: 0.9;
   }
 
-  #feature-media {
+  #feature-content-media {
     transition: all 400ms ease;
   }
 
-  #feature-media::before {
+  #feature-content-media::after {
     background: url("../assets/img/nv-dani.jpg");
     background-position: 33% 57%;
     background-size: cover;
@@ -94,18 +94,18 @@
     left: 0;
     right: 0;
     position: absolute;
-    opacity: 0.6;
+    opacity: 0.5;
   }
 
-  #feature-media:hover::before {
+  #feature-content-media:hover::after {
     opacity: 0.9;
   }
 
-  #feature-contact {
+  #feature-content-contact {
     transition: all 400ms ease;
   }
 
-  #feature-contact::before {
+  #feature-content-contact::after {
     background: url("../assets/img/nv-bambino.jpg");
     background-position: 33% 35%;
     background-size: cover;
@@ -117,10 +117,10 @@
     left: 0;
     right: 0;
     position: absolute;
-    opacity: 0.6;
+    opacity: 0.5;
   }
 
-  #feature-contact:hover::before {
+  #feature-content-contact:hover::after {
     opacity: 0.9;
   }
 }
