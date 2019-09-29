@@ -1,2 +1,2 @@
-# champagnepop-site
-official site of the champagne band
+# Neon Vampire
+official site of the Neon Vampire band

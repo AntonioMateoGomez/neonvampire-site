@@ -1,11 +1,12 @@
 #navbar {
-  padding: 60px;
+  padding: 20px 50px;
   position: fixed;
   right: 0;
   left: 0;
   z-index: 1030;
   display: inline-flex;
   justify-content: space-between;
+  align-items: center;
   transition: all 400ms ease;
 
   &.nav-scroll {
@@ -17,6 +18,26 @@
 
     li {
       margin: 0 20px;
+    }
+  }
+
+  #nv-logo {
+    width: 120px;
+  }
+}
+
+// Responsive
+@include bp(medium) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+
+    .nav-menu {
+      margin-top: $base-point-grid * 2;
+
+      li {
+        margin: 0 $base-point-grid;
+      }
     }
   }
 }
