@@ -11,7 +11,7 @@
         {% for item in site.data.footer-nav.nav %}
         {% if item.title != "contact" %}
         <li>
-          <a href="{{ item.url }}" title="{{ item.title }}" alt="{{ item.title }}">
+          <a href="{{ item.url }}" target="_blank" title="{{ item.title }}" alt="{{ item.title }}">
             {% if item.icon != "" %}
             <i class="foot-item-icon fa fa-lg {{ item.icon }}" aria-hidden="true"></i>
             {% else %}
