@@ -18,11 +18,25 @@
 
     li {
       margin: 0 20px;
+      a {
+        &:hover {
+          text-decoration: none;
+          border-bottom: 2px solid;
+        }
+      }
+    }
+    li:last-child {
+      margin-right: 0;
+      padding-right: 0;
+    }
+    li:first-child {
+      margin-left: 0;
+      padding-left: 0;
     }
   }
 
   #nv-logo {
-    width: 120px;
+    width: 140px;
   }
 }
 
