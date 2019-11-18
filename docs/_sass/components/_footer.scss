@@ -21,7 +21,16 @@
       display: inline-flex;
 
       li {
-        padding: 0 14px;
+        padding: 0 $base-point-grid;
+        a {
+          padding: $base-point-grid;
+          &:hover {
+            i {
+              opacity: 0.75;
+            }
+            text-decoration: none;
+          }
+        }
       }
     }
   }
@@ -34,6 +43,20 @@
 
   li {
     padding: 0 14px 0 0;
+    a {
+      &:hover {
+        text-decoration: none;
+        border-bottom: 2px solid;
+      }
+    }
+  }
+  li:last-child {
+    margin-right: 0;
+    padding-right: 0;
+  }
+  li:first-child {
+    margin-left: 0;
+    padding-left: 0;
   }
 }
 
@@ -52,7 +75,7 @@
   }
   .footer-div {
     .nav-menu {
-      justify-content: center;
+      justify-content: space-between;
     }
   }
 }

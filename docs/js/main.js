@@ -3,7 +3,7 @@ const navElement = document.querySelector('#navbar');
 
 // Navigation element modification through scrolling
 function scrollFunction() {
-  if (document.documentElement.scrollTop > 0) {
+  if (document.documentElement.scrollTop | document.body.scrollTop > 0) {
     navElement.classList.add("nav-scroll");
   } else {
     navElement.classList.remove("nav-scroll");
