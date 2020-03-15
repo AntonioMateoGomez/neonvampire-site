@@ -16,6 +16,10 @@
       text-align: left;
     }
 
+    .post-title {
+      text-decoration: none;
+    }
+
     .article-image {
       margin: ($base-point-grid * 2) 0;
       max-width: 100%;
@@ -29,19 +33,21 @@
       width: max-content;
       margin: 0 auto;
       min-height: $base-point-grid * 6;
+      &:hover {
+        border-bottom: 2px solid;
+      }
     }
 
-    .bottom-description {
+    p {
       text-align: left;
       padding-bottom: $base-point-grid;
-    }
-
-    a {
-      &:hover {
-        text-decoration: none;
-
-        h2 {
-          border-bottom: 2px solid;
+      line-height: 1.8em;
+      font-size: 15px;
+      letter-spacing: .02em;
+      a {
+        text-decoration: underline;
+        &:hover {
+          color: $link-hover;
         }
       }
     }
