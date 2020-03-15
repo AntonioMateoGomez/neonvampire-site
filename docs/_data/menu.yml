@@ -1,20 +1,20 @@
 nav:
-    - title: news
-      description: Lorem ipsum dolor sit amet
+    - title: noticias
+      description:
       url: /news
 
-    - title: music
-      description: Lorem ipsum dolor sit amet
+    - title: música
+      description:
       url: https://song.link/album/i/1112754082
 
     - title: media
-      description: Lorem ipsum dolor sit amet
+      description:
       url: https://www.youtube.com/channel/UCjSUyhLjfHtabemaxztsxNg
 
-    - title: contact
-      description: Lorem ipsum dolor sit amet
-      url: /news
+    - title: contacto
+      description:
+      url: /contact
 
-    - title: bandcamp
-      description: Lorem ipsum dolor sit amet
-      url: https://neonvampire.bandcamp.com/
+    # - title: bandcamp
+    #   description:
+    #   url: https://neonvampire.bandcamp.com/

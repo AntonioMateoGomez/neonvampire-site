@@ -13,6 +13,7 @@
     .main-text {
       display: flex;
       flex-direction: column;
+      font-size: 3rem;
     }
   }
 }
@@ -33,10 +34,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.fa-angle-down {
-  margin-top: -40px;
 }
 
 #point-to-feature:hover {

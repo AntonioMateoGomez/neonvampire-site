@@ -1,0 +1,12 @@
+#contact {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  .contact-container {
+    padding: 150px 0px;
+    background-color: #202226;
+    width: 100%;
+    letter-spacing: 2px;
+  }
+}

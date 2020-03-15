@@ -61,7 +61,7 @@
 }
 
 // Responsive
-@include bp(medium) {
+@include bp(large) {
   #footer {
     .footer-content {
       flex-direction: column;
