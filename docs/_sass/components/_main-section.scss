@@ -11,6 +11,9 @@
 
   .feature-content {
     position: relative;
+    &:hover {
+      color: $white;
+    }
   }
 
   .section {
