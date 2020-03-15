@@ -1,9 +1,14 @@
 <div>
   <ul class="nav-menu">
-    {% for item in site.data.menu.nav%}
-    {% if item.title != "contact" %}
+    {% for item in site.data.menu.nav %}
+    {% if page.layout ==  item.title %}
+      {% assign active = "active" %}
+    {% else %}
+      {% assign active = "" %}
+    {% endif %}
     <li>
-      <a href="{{ item.url }}" target={% if item.title != "news" %}"_blank"{% else %}""{% endif %} title="{{ item.title }}" alt="{{ item.title }}">
+      <a href="{{ item.url }}" target={% if item.title == "música" or item.title == "media" %}"_blank"{% else %}""{% endif %}
+       title="{{ item.title }}" alt="{{ item.title }}" class="{{ active }}">
         {% if item.icon != "" %}
         <i aria-hidden="true"></i>
         <span>{{ item.title }}</span>
@@ -12,7 +17,6 @@
         {% endif %}
       </a>
     </li>
-    {% endif %}
     {% endfor %}
   </ul>
 </div>

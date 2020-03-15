@@ -1,20 +1,15 @@
 nav:
     - title: noticias
-      description:
-      url: /news
+      url: /noticias
 
     - title: música
-      description:
       url: https://song.link/album/i/1112754082
 
     - title: media
-      description:
       url: https://www.youtube.com/channel/UCjSUyhLjfHtabemaxztsxNg
 
     - title: contacto
-      description:
-      url: /contact
+      url: /contacto
 
     # - title: bandcamp
-    #   description:
     #   url: https://neonvampire.bandcamp.com/

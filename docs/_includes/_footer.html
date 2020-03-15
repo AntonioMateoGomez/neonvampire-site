@@ -9,9 +9,14 @@
     <div id="footer-icons" class="footer-div">
       <ul>
         {% for item in site.data.footer-nav.nav %}
-        {% if item.title != "contact" %}
+        {% if page.layout ==  item.title %}
+          {% assign active = "active" %}
+        {% else %}
+          {% assign active = "" %}
+        {% endif %}
         <li>
-          <a href="{{ item.url }}" target="_blank" title="{{ item.title }}" alt="{{ item.title }}">
+          <a href="{{ item.url }}" target={% if item.title == "música" or item.title == "media" %}"_blank"{% else %}""{% endif %}
+           title="{{ item.title }}" alt="{{ item.title }}" class="{{ active }}">
             {% if item.icon != "" %}
             <i class="foot-item-icon fa fa-lg {{ item.icon }}" aria-hidden="true"></i>
             {% else %}
@@ -19,7 +24,6 @@
             {% endif %}
           </a>
         </li>
-        {% endif %}
         {% endfor %}
       </ul>
     </div>

@@ -1,0 +1,4 @@
+---
+title: noticias
+layout: noticias
+---
