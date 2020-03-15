@@ -51,10 +51,11 @@
     flex-direction: column;
 
     .nav-menu {
-      margin-top: $base-point-grid * 2;
+      margin-top: $base-point-grid;
 
       li {
         margin: 0 $base-point-grid;
+        padding: 0 4px;
       }
     }
   }
