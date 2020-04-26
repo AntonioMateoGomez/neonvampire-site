@@ -4,9 +4,25 @@
   text-align: center;
 
   .contact-container {
-    padding: 150px 0px;
-    background-color: #202226;
+    padding: 140px 0px;
     width: 100%;
     letter-spacing: 2px;
+    background-image: linear-gradient(transparent, $contact-color);
+  }
+}
+
+@include bp(medium) {
+  #contact {
+    .contact-container {
+      padding: 100px 0px;
+    }
+  }
+}
+
+@include bp(small) {
+  #contact {
+    .contact-container {
+      padding: 50px 0px;
+    }
   }
 }
