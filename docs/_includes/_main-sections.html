@@ -1,15 +1,17 @@
 <section id="main-section">
-
-  {% for item in site.data.menu.nav%}
-  {% if item.title != "bandcamp" %}
-  <a id="feature-content-{{item.title}}" class="feature-content section" href="{{ item.url }}" alt="{{ item.title }}" >
-  <div id="feature-{{item.title}}" title="{{ item.title }}">
-  <div>
-    <h2>{{item.title}}</h2>
-    <p class="description">{{item.description}}</p>
-  </div>
-  </div>
+  {% for item in site.data.menu.nav%} {% if item.title != "bandcamp" %}
+  <a
+    id="feature-content-{{item.title}}"
+    class="feature-content section"
+    href="{{ item.url }}"
+    alt="{{ item.title }}"
+  >
+    <div id="feature-{{item.title}}" title="{{ item.title }}">
+      <div>
+        <h2>{{item.title}}</h2>
+        <p class="description">{{item.description}}</p>
+      </div>
+    </div>
   </a>
-  {% endif %}
-  {% endfor %}
+  {% endif %} {% endfor %}
 </section>

@@ -7,8 +7,6 @@
     <a href="{{post.link}}" target="_blank">
       <img class="article-image" src="{{ post.image | relative_url }}" />
     </a>
-    {% if post.content %}
-    {{ post.content }}
-    {% endif %}
+    {% if post.content %} {{ post.content }} {% endif %}
   </div>
 </article>
