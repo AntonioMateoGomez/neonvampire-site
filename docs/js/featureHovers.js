@@ -4,7 +4,6 @@ function loadEvent() {
   const pointToFeature = document.getElementById('point-to-feature');
 
   pointToFeature.addEventListener('click', () => {
-    console.log('in');
     document.querySelector('#main-section').scrollIntoView({
       behavior: 'smooth'
     });
