@@ -7,4 +7,4 @@ bottom-description: Versión acústica del tema Neon Vampire.
 ---
 Neon Vampire en su versión mas cruda
 <br>
-Grabado en diciembre en "Neon studios", Paolo nos sorprende con esta versión desnuda del tema que dá título al grupo y al próximo album de la banda gaditana.
+Grabado en diciembre en "Neon Estudios", Paolo nos sorprende con esta versión desnuda del tema que da título al grupo y al próximo álbum de la banda gaditana.
