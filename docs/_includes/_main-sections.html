@@ -2,9 +2,9 @@
   {% for item in site.data.menu.nav%} {% if item.title != "bandcamp" %}
   <a
     id="feature-content-{{item.title}}"
-    class="feature-content section"
     href="{{ item.url }}"
     alt="{{ item.title }}"
+    class={% if item.title == "música" %}"feature-content section disabled"{% else %}"feature-content section"{% endif %}
   >
     <div id="feature-{{item.title}}" title="{{ item.title }}">
       <div>

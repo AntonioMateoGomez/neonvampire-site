@@ -49,3 +49,7 @@ a {
 h2 {
   font-size: 3rem;
 }
+
+.disabled {
+  pointer-events: none;
+}
