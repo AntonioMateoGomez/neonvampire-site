@@ -15,8 +15,11 @@
           {% assign active = "" %}
         {% endif %}
         <li>
-          <a href="{{ item.url }}" target={% if item.title == "música" or item.title == "media" %}"_blank"{% else %}""{% endif %}
-           title="{{ item.title }}" alt="{{ item.title }}" class="{{ active }}">
+          <a href="{{ item.url }}"
+             target={% if item.title == "música" or item.title == "media" %}"_blank"{% else %}""{% endif %}
+             title="{{ item.title }}"
+             alt="{{ item.title }}"
+             class={% if item.title == "música" %}"disabled"{% else %}""{% endif %}">
             {% if item.icon != "" %}
             <i class="foot-item-icon fa fa-lg {{ item.icon }}" aria-hidden="true"></i>
             {% else %}
