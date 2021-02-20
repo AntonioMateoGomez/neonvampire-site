@@ -32,7 +32,7 @@
 
     .article-title {
       font-size: 2rem;
-      width: max-content;
+      width: auto;
       margin: 0 auto;
       min-height: $base-point-grid * 6;
       &:hover {
