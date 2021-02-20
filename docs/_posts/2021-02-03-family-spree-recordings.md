@@ -1,9 +1,9 @@
 ---
 title: Lanzamiento con Family Spree Recordings
 category: articles
-link: https://www.youtube.com/watch?v=Fert6rmoaX8
+link: https://www.facebook.com/familyspreerecordings/
 image: /assets/img/articles/2021-02-03-family-spree.PNG
-bottom-description: Neon Vampire vídeo oficial
+bottom-description: Neon Vampire y Family Spree Recordings
 ---
 [Family Spree Recordings](https://www.facebook.com/familyspreerecordings/){:target="_blank"} y Neon Vampire.
 <br>
