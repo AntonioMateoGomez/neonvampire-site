@@ -139,4 +139,17 @@
       border-top: solid 1px;
     }
   }
+  
+  body #main-section #feature-content-noticias::after {
+    opacity: 0.8;
+  }
+  body #main-section #feature-content-música::after {
+    opacity: 0.8;
+  }
+  body #main-section #feature-content-media::after {
+    opacity: 0.8;
+  }
+  body #main-section #feature-content-contacto::after {
+    opacity: 0.8;
+  }
 }

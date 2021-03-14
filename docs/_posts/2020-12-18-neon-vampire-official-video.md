@@ -9,4 +9,4 @@ Pesadillas y vampiros.
 <br>
 Durante el invierno de 2019 la banda se embarcó en la grabación de su primer videoclip basado en una pesadilla vampírica. Grabado por Jesús Gómez en distintas localizaciones de San Fernando, como los polvorines de Punta Cantera o la Casa de la Juventud.
 <br>
-[Ver el video!](https://www.youtube.com/watch?v=Fert6rmoaX8){:target="_blank"}
+[Ver el video!](https://www.youtube.com/watch?v=Fert6rmoaX8){:target="_blank" rel="noreferrer noopener"}
