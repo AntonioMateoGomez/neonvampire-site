@@ -22,11 +22,20 @@ function loadEvent() {
 
 // Controls the arrow position
 function scrollEvent() {
+  const docHeight = document.body.offsetHeight;
+  const sectionHeight = document.getElementById("main-section").clientHeight;
+  const footerHeight = document.getElementById("footer").clientHeight;
   const isUp = arrowEl.classList.contains("turn");
-  const isTop = document.body.clientHeight == window.pageYOffset + window.innerHeight;
+  const isTop =
+    document.body.clientHeight == window.pageYOffset + window.innerHeight;
+  const isBottom =
+    window.innerHeight + window.scrollY >=
+    docHeight + sectionHeight + footerHeight;
 
   if (isUp && isTop) {
-      arrowEl.classList.toggle("turn");
+    arrowEl.classList.toggle("turn");
+  } else if (!isUp && isBottom) {
+    arrowEl.classList.toggle("turn");
   }
 }
 
