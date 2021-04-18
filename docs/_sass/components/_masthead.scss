@@ -1,7 +1,7 @@
 #masthead {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   z-index: 5;
   height: 100%;
   font-size: 450%;
@@ -26,8 +26,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)),
-    url("../assets/img/nv-masthead.jpg");
+  background-image: url("../assets/img/nv-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,7 +37,15 @@
 }
 
 #header-logo {
-  width: 350px;
+  width: 450px;
+}
+
+#arrow-element {
+  transition: ease-in .3s;
+}
+
+.turn {
+  transform: rotate(180deg);
 }
 
 // Responsive
