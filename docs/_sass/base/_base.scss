@@ -25,6 +25,7 @@ body {
   background: $black;
   font-family: $base-font-family;
   line-height: $base-line-height;
+  display: none;
 }
 
 a {
@@ -52,4 +53,8 @@ h2 {
 
 .disabled {
   pointer-events: none;
+}
+
+.show {
+  display: block;
 }

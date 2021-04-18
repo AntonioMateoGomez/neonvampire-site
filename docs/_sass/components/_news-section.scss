@@ -15,6 +15,7 @@
       color: $gray;
       text-align: left;
       font-size: $small-font-size;
+      padding-bottom: 0px;
     }
 
     .post-title {
@@ -27,7 +28,6 @@
       display: block;
       margin-right: auto;
       margin-left: auto;
-      border: solid 2px;
       width: auto;
       height: auto;
     }
@@ -46,7 +46,6 @@
       text-align: left;
       padding-bottom: $base-point-grid;
       line-height: 1.8em;
-      font-size: 15px;
       letter-spacing: 0.02em;
       a {
         text-decoration: underline;
