@@ -18,8 +18,7 @@
 // Responsive
 @include bp(medium) {
   #news-header {
-    background-attachment: fixed;
-    background-position: 40% 35%;
+    background-position: 0% 200%;
     background-size: contain;
     height: 48%;
   }
