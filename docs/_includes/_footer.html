@@ -17,6 +17,7 @@
         <li>
           <a href="{{ item.url }}"
              target={% if item.title == "música" or item.title == "media" %}"_blank"{% else %}""{% endif %}
+             rel={% if item.title == "música" or item.title == "media" %}"noreferrer noopener"{% else %}""{% endif %}
              title="{{ item.title }}"
              alt="{{ item.title }}"
              class={% if item.title == "música" %}"disabled"{% else %}""{% endif %}">

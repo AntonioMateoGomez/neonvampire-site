@@ -13,7 +13,8 @@ function scrollFunction() {
 // Init call
 function loadEvent() {
   document.addEventListener("scroll", scrollFunction);
+  const wrapper = document.getElementById("wrapper");
+  wrapper.classList.add("show");
 }
 
-// Attach the functions to each event they are interested in
 window.addEventListener("load", loadEvent);
