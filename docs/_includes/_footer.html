@@ -9,17 +9,15 @@
     <div id="footer-icons" class="footer-div">
       <ul>
         {% for item in site.data.footer-nav.nav %}
-        {% if page.layout ==  item.title %}
-          {% assign active = "active" %}
+        {% if page.layout == item.title %}
+        {% assign active = "active" %}
         {% else %}
-          {% assign active = "" %}
+        {% assign active = "" %}
         {% endif %}
         <li>
-          <a href="{{ item.url }}"
-             target={% if item.title == "música" or item.title == "media" %}"_blank"{% else %}""{% endif %}
-             rel={% if item.title == "música" or item.title == "media" %}"noreferrer noopener"{% else %}""{% endif %}
-             title="{{ item.title }}"
-             alt="{{ item.title }}">
+          <a href="{{ item.url }}" target={% if item.title=="música" or item.title=="media" %}"_blank"{% else %}""{%
+            endif %} rel={% if item.title=="música" or item.title=="media" %}"noreferrer noopener"{% else %}""{% endif
+            %} title="{{ item.title }}" alt="{{ item.title }}">
             {% if item.icon != "" %}
             <i class="foot-item-icon fa fa-lg {{ item.icon }}" aria-hidden="true"></i>
             {% else %}
@@ -29,9 +27,6 @@
         </li>
         {% endfor %}
       </ul>
-    </div>
-    <div id="footer-nav" class="footer-div">
-      {% include _nav-menu.html %}
     </div>
   </div>
 </footer>

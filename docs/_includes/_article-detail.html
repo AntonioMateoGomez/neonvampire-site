@@ -2,20 +2,11 @@
   <article class="article-card">
     <div class="article-card-header">
       <p class="article-date">{{post.date | date: "%B %-d %Y" }}</p>
-      <a
-        class="post-title"
-        href="{{ post.link }}"
-        target="_blank"
-        rel="noreferrer noopener"
-      >
+      <a class="post-title" href="{{ post.link }}" target="_blank" rel="noreferrer noopener">
         <h2 class="article-title">{{ post.title }}</h2>
       </a>
       <a href="{{post.link}}" target="_blank" rel="noreferrer noopener">
-        <img
-          class="article-image"
-          src="{{ post.image | relative_url }}"
-          alt="{{post.title}}"
-        />
+        <img class="article-image" src="{{ post.image | relative_url }}" alt="{{post.title}}" />
       </a>
       {% if post.content %} {{ post.content }} {% endif %}
     </div>
