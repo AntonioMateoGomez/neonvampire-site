@@ -9,12 +9,6 @@
 
   .container {
     text-align: center;
-
-    .main-text {
-      display: flex;
-      flex-direction: column;
-      font-size: 3rem;
-    }
   }
 }
 
@@ -30,27 +24,4 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-#point-to-feature:hover {
-  cursor: pointer;
-}
-
-#header-logo {
-  width: 450px;
-}
-
-#arrow-element {
-  transition: ease-in .3s;
-}
-
-.turn {
-  transform: rotate(180deg);
-}
-
-// Responsive
-@include bp(medium) {
-  #header-logo {
-    display: none;
-  }
 }
